@@ -30,3 +30,4 @@
 
 <a href = "mailto:felipef.dev@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href = "https://www.instagram.com/felipe.faciroli/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+<a href = "https://felipefaciroli.com.br"><img src="[https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white](https://img.magnific.com/vetores-premium/icone-de-cadeia_1076610-26264.jpg?semt=ais_hybrid&w=740&q=80)" target="_blank"></a>
