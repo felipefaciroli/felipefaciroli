@@ -38,27 +38,3 @@
   <a href="https://www.instagram.com/felipe.faciroli/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="https://felipefaciroli.com.br"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
 </p>
-
-2. Action que gera os indicadores
-
-No repositório felipefaciroli/felipefaciroli, crie o arquivo .github/workflows/profile-cards.yml:
-
-name: Profile summary cards
-
-on:
-  schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
