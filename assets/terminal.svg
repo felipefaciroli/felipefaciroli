@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280" font-family="Consolas, 'Courier New', monospace" font-size="18">
+  <defs>
+    <clipPath id="l1"><rect x="20" y="50" height="30" width="0"><animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;700;700;0" keyTimes="0;0.03;0.10;0.96;1"/></rect></clipPath>
+    <clipPath id="l2"><rect x="20" y="78" height="30" width="0"><animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;700;700;0" keyTimes="0;0.12;0.13;0.96;1"/></rect></clipPath>
+    <clipPath id="l3"><rect x="20" y="113" height="30" width="0"><animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;700;700;0" keyTimes="0;0.18;0.28;0.96;1"/></rect></clipPath>
+    <clipPath id="l4"><rect x="20" y="141" height="30" width="0"><animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;700;700;0" keyTimes="0;0.31;0.32;0.96;1"/></rect></clipPath>
+    <clipPath id="l5"><rect x="20" y="176" height="30" width="0"><animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;700;700;0" keyTimes="0;0.40;0.52;0.96;1"/></rect></clipPath>
+    <clipPath id="l6"><rect x="20" y="204" height="30" width="0"><animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;760;760;0" keyTimes="0;0.55;0.56;0.96;1"/></rect></clipPath>
+  </defs>
+
+  <rect width="800" height="280" rx="12" fill="#141321"/>
+  <rect width="800" height="34" rx="12" fill="#1f1d2e"/>
+  <rect y="22" width="800" height="12" fill="#1f1d2e"/>
+  <circle cx="22" cy="17" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="17" r="6" fill="#27c93f"/>
+  <text x="400" y="22" fill="#a9a6c1" font-size="13" text-anchor="middle">felipe@github: ~</text>
+
+  <g clip-path="url(#l1)"><text x="30" y="72"><tspan fill="#fe428e">$</tspan><tspan fill="#ffffff"> whoami</tspan></text></g>
+  <g clip-path="url(#l2)"><text x="30" y="100" fill="#a9fef7">Felipe Faciroli, dev React &amp; NestJS</text></g>
+
+  <g clip-path="url(#l3)"><text x="30" y="135"><tspan fill="#fe428e">$</tspan><tspan fill="#ffffff"> cat stack.txt</tspan></text></g>
+  <g clip-path="url(#l4)"><text x="30" y="163" fill="#f8d847">React · TypeScript · NestJS · Express · Node.js · MongoDB</text></g>
+
+  <g clip-path="url(#l5)"><text x="30" y="198"><tspan fill="#fe428e">$</tspan><tspan fill="#ffffff"> ./modo-gamer.sh</tspan></text></g>
+  <g clip-path="url(#l6)">
+    <text x="30" y="226" fill="#a9fef7">carregando partida</text>
+    <rect x="230" y="211" width="300" height="18" rx="3" fill="none" stroke="#fe428e"/>
+    <rect x="232" y="213" width="0" height="14" rx="2" fill="#fe428e">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" values="0;0;296;296;0" keyTimes="0;0.57;0.80;0.96;1"/>
+    </rect>
+    <text x="545" y="226" fill="#27c93f" opacity="0">pronto!
+      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.80;0.81;0.96;1"/>
+    </text>
+  </g>
+
+  <text x="30" y="260" fill="#fe428e" opacity="0">$ <tspan fill="#ffffff">▌<animate attributeName="opacity" dur="1s" repeatCount="indefinite" values="1;0;1"/></tspan>
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.84;0.85;0.96;1"/>
+  </text>
+</svg>
