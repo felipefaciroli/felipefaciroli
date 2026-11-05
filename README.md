@@ -5,10 +5,6 @@
   <img src="./assets/terminal.svg" alt="Terminal animado com a apresentação do Felipe" width="100%" />
 </p>
 
-<p align="center">
-  <img src="./assets/pixel-jeff.gif" alt="Pixel art de Pixel Jeff (behance.net/pixeljeff)" />
-</p>
-
 ## 🛠️ Tecnologias <img src="./assets/stack.gif" width="28" alt="">
 
 <p align="left">
